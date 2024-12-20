@@ -1,0 +1,32 @@
+
+
+body{
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items:center;
+}
+
+.box{
+    
+    width: 20px;
+    height: 18px;
+    border: 2px solid black;
+}
+.para{
+    color: black;
+}
+.content{
+   
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    cursor: pointer;
+}
